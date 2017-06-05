@@ -1,9 +1,10 @@
 var express = require('express');
 var router = express.Router();
 
-const pg = require('pg');
+var pg = require('pg');
+pg.defaults.ssl = true;
 const path = require('path');
-const connectionString = process.env.DATABASE_URL || 'postgres://localhost:5432/todo';
+const connectionString = process.env.DATABASE_URL //|| 'postgres://localhost:5432/todo';
 
 
 /* GET home page. */
