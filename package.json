@@ -1,9 +1,9 @@
 {
   "name": "node-postgres-todo",
-  "version": "0.0.0",
+  "version": "7.10.0",
   "private": true,
   "scripts": {
-    "start": "supervisor ./bin/www"
+    "start": "www ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
