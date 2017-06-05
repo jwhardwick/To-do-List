@@ -3,7 +3,7 @@
   "version": "7.10.0",
   "private": true,
   "scripts": {
-    "start": "www ./bin/www"
+    "start": "supervisor ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
